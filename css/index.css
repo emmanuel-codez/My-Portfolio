@@ -33,12 +33,13 @@ body {
 }
 
 .hero-header {
-  max-width: 960px;
+  /* max-width: 960px; */
 
   font-family: "Exo 2", sans-serif;
 
   padding: 10px;
   display: flex;
+  margin-left: 50px;
 
   align-items: center;
 
@@ -47,8 +48,10 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 70%;
   z-index: 10;
+
+  /* background-color: aqua; */
 
   h1 {
     letter-spacing: 0px;
@@ -440,7 +443,7 @@ footer {
   }
 
   .max-hero {
-    /* width: 100%; */
+    width: 100%;
     /* padding-inline: 20px; */
 
     /* padding-inline: 20px; */
