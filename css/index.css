@@ -29,7 +29,7 @@ body {
 
 .links-cont,
 .logo {
-  margin-inline: auto;
+  /* margin-inline: auto; */
 }
 
 .hero-header {
@@ -39,7 +39,8 @@ body {
 
   padding: 10px;
   display: flex;
-  margin-left: 50px;
+
+  /* margin-left: 70px; */
 
   align-items: center;
 
@@ -48,7 +49,7 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  width: 70%;
+  width: 100%;
   z-index: 10;
 
   /* background-color: aqua; */
@@ -66,6 +67,8 @@ body {
 
 .logo {
   transition: 0.3s ease-in;
+
+  margin-left: 70px;
 
   &:hover {
     opacity: 0.7;
@@ -102,6 +105,7 @@ body {
   background-blend-mode: multiply;
 
   height: 100vh;
+  /* width: 100%; */
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -443,16 +447,18 @@ footer {
   }
 
   .max-hero {
-    width: 100%;
     /* padding-inline: 20px; */
 
     /* padding-inline: 20px; */
 
-    margin-inline: auto;
-
-    padding-inline: 10px;
+    /* padding-inline: 10px; */
 
     /* background-color: orange; */
+  }
+
+  .hero-holder {
+    width: 100%;
+    margin-inline: auto;
   }
 
   .logo {
@@ -487,6 +493,8 @@ footer {
 
     /* margin-inline: 10px; */
     /* margin-top: 25px; */
+
+    background-color: red;
   }
 
   .links-cont {
@@ -499,6 +507,7 @@ footer {
     padding: 10px 15px;
 
     border-radius: 20px;
+
     /* gap: 10px; */
     margin-inline: auto !important;
     /* width: 95%; */
@@ -511,7 +520,7 @@ footer {
     a {
       font-size: 15px;
 
-      /* background-color: greenyellow; */
+      background-color: greenyellow;
       /* display: flex; */
 
       margin-right: 0px;
@@ -530,14 +539,9 @@ footer {
   /* my name */
 
   .My-Name {
-    width: 100%;
-    /* margin: 10px; */
-
-    /* background-color: greenyellow; */
+    background-color: greenyellow;
     h1 {
-      font-size: 65px;
-      /* padding-inline: 10; */
-      /* margin-inline: auto; */
+      font-size: 60px;
     }
   }
 
