@@ -487,19 +487,19 @@ footer {
     width: 100%;
     position: sticky !important;
     /* top: 0; */
-    margin-top: 20px;
+    margin-top: 5px;
 
     background-color: #ccd6f6;
     padding: 10px;
 
     border-radius: 20px;
 
-    margin-inline: auto;
+    margin-inline: 5px;
 
     a {
       margin-inline: auto;
 
-      font-size: 12px;
+      font-size: 14px;
       font-weight: bolder;
 
       /* margin-right: 0px; */
