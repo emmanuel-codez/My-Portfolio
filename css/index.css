@@ -484,21 +484,25 @@ footer {
   }
 
   .links-cont {
+    width: 100%;
     position: sticky !important;
-    top: 0;
+    /* top: 0; */
     margin-top: 20px;
 
     background-color: #ccd6f6;
-    padding: 10px 15px;
+    padding: 10px;
 
     border-radius: 20px;
 
-    margin-inline: auto !important;
+    margin-inline: auto;
 
     a {
-      font-size: 10px;
+      margin-inline: auto;
 
-      margin-right: 0px;
+      font-size: 12px;
+      font-weight: bolder;
+
+      /* margin-right: 0px; */
 
       color: #1f1e33;
       padding: 4px;
