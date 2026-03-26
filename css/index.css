@@ -481,54 +481,29 @@ footer {
   }
 
   .hero-header {
-    /* width: 90%;
-
-    margin-inline: auto; */
-
-    /* max-width: 768px; */
-    /* margin: 0; */
-    /* padding: 7px 0px; */
-
-    /* border-radius: 40px; */
-
-    /* margin-inline: 10px; */
-    /* margin-top: 25px; */
-
-    /* background-color: red; */
   }
 
   .links-cont {
     position: sticky !important;
     top: 0;
     margin-top: 20px;
-    /* margin-inline: auto; */
 
     background-color: #ccd6f6;
     padding: 10px 15px;
 
     border-radius: 20px;
 
-    /* gap: 10px; */
     margin-inline: auto !important;
-    /* width: 95%; */
-    /* margin-left: 0px; */
-
-    /* padding: 3px; */
-
-    /* transition: 0.3s ease-in-out; */
 
     a {
-      font-size: 15px;
-
-      /* background-color: greenyellow; */
-      /* display: flex; */
+      font-size: 10px;
 
       margin-right: 0px;
 
       color: #1f1e33;
       padding: 4px;
 
-      /* transition: 0.3s ease-in; */
+      /* background-color: red; */
     }
 
     .me {
@@ -536,37 +511,23 @@ footer {
     }
   }
 
-  /* my name */
-
   .My-Name {
-    /* background-color: greenyellow; */
+    padding-inline: 0px;
+
     h1 {
-      font-size: 60px;
+      font-size: 55px;
+
+      margin-inline: 10px;
     }
   }
 
   .hero {
-    /* margin-inline: auto; */
-
-    /* padding: 20px; */
   }
 
   .career {
-    /* margin-inline: auto; */
-
     p {
-      /* display: flex; */
-      /* text-align: center; */
-      justify-content: center;
-      /* align-items: center; */
-
-      padding: 20px 0px;
-
-      /* padding-inline: 50px; */
-
-      /* background-color: red; */
-
-      /* font-size:17px; */
+      margin-inline: 15px;
+      font-size: 18px;
     }
   }
 
