@@ -649,7 +649,12 @@ footer {
 
   .tech-hero-name {
     h1 {
-      font-size: 30px;
+      font-size: 50px;
+      letter-spacing: 0px;
+
+      /* transform: scaleY(4);
+      display: inline-block; */
+      /* font-stretch: condensed; */
     }
   }
 
