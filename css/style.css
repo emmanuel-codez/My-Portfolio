@@ -629,6 +629,12 @@ footer {
     }
   }
 
+  .tech-hero-name h1::before {
+    content: "</>";
+    opacity: 0.5;
+    font-size: 20px;
+  }
+
   .skill {
     p {
       font-size: 10px;
@@ -692,4 +698,21 @@ footer {
   }
 
   /* FOOTER */
+
+  .flex-footer {
+    flex-direction: column-reverse;
+    text-align: center;
+
+    background-color: red;
+  }
+}
+
+.Left-Footer {
+  width: 100%;
+}
+
+.right-footer {
+  width: 100%;
+  flex-direction: column;
+  text-align: center;
 }
