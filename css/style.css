@@ -244,6 +244,7 @@ body {
 
 .pop-up-heading a {
   color: var(--Light-blue);
+  /* color: white; */
   text-decoration: none;
   margin-left: 20px;
   transition: 0.3s ease-in-out;
@@ -253,9 +254,11 @@ body {
 }
 
 .pop-up-heading a:hover {
-  text-decoration-line: line-through;
+  /* text-decoration-line: line-through;
   text-decoration-style: double;
-  text-decoration-color: white;
+  text-decoration-color: white; */
+
+  color: white;
 }
 
 .pop-up-heading button {
@@ -407,7 +410,7 @@ body {
 .right-stacks {
   width: 50%;
   border: 2px solid white;
-  padding: 20px;
+  padding: 40px;
 }
 
 .left-stacks {
@@ -541,6 +544,10 @@ footer {
   h1 {
     margin-bottom: 10px;
   }
+
+  p a {
+    text-decoration: none;
+  }
 }
 .flex-right-footer {
   width: 100%;
@@ -648,6 +655,7 @@ footer {
   }
 
   .tech-hero-name {
+    /* display: flex; */
     h1 {
       font-size: 50px;
       letter-spacing: 0px;
@@ -659,9 +667,17 @@ footer {
   }
 
   .tech-hero-name h1::before {
-    content: "</>";
-    opacity: 0.5;
-    font-size: 20px;
+    /* display: none; */
+    /* content: "</>"; */
+    /* opacity: 0.5; */
+    font-size: 30px;
+  }
+
+  .tech-hero-name h1::before {
+    /* display: none; */
+    /* content: "</>"; */
+    /* opacity: 0.5; */
+    /* font-size: 20px; */
   }
 
   .skill {
