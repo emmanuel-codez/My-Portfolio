@@ -131,7 +131,6 @@ body {
 .right-heading {
   /* background-color: red; */
   display: flex;
- 
 
   p a {
     display: inline-block;
@@ -180,7 +179,7 @@ body {
 }
 
 .toggle {
-   display: none;
+  display: none;
 }
 
 /* HERO CONTENT */
@@ -616,7 +615,9 @@ footer {
   .My-Hero {
   }
   .header-cont {
-    padding: 5px 5px;
+    padding: 5px 30px;
+    /* position: sticky; */
+    /* top: 0; */
     /* background-color: #18bfef; */
     /* padding: 5px 30px; */
     /* flex-direction: column; */
@@ -630,13 +631,14 @@ footer {
   }
 
   .left-heading {
+    /* background-color: #18bfef; */
     a {
       h1 {
-        font-size: 15px;
+        font-size: 25px;
       }
 
       p {
-        font-size: 7px;
+        font-size: 15px;
         letter-spacing: 3px;
       }
     }
@@ -651,12 +653,12 @@ footer {
     right: 0;
     /* width: 100%; */
     text-align: right;
- 
+
     flex-direction: column;
 
     /* justify-content: right; */
     line-height: 1.9;
-    padding-inline: 10px;
+    padding-inline: 20px;
 
     /*  */
     /* position: absolute;
@@ -668,27 +670,30 @@ footer {
     flex-direction: column;
     display: none; */
 
-
     p {
-      font-size: 13px;
-
       margin-left: 0px;
-      margin-right: 1px;
+      /* margin-right: 1px; */
 
       font-family: sans-serif;
+    }
+
+    a {
+      font-size: 25px !important;
     }
   }
 
   .header-btn {
-    padding: 5px 15px;
-    font-size: 8px;
-    margin-left: 150px;
+    /* background-color: red; */
+    padding: 10px 20px;
+    font-size: 11px;
+    margin-left: 40px;
 
     font-family: "Source Sans Pro", Helvetica, sans-serif;
   }
 
   .toggle {
-    font-size: 20px;
+    /* background-color: green; */
+    font-size: 30px;
     display: block;
   }
 
