@@ -3,21 +3,21 @@ const headLinks = document.getElementById("headLinks");
 const toggle = document.getElementById("toggle");
 
 //
-// let toggleBtn = true;
+let toggleBtn = true;
 
 toggle.addEventListener("click", function () {
   headLinks.classList.toggle("active");
 
-  // if (toggleBtn) {
-  //   // toggle.style.backgroundColor = "blue";
-  //   toggle.textContent = "❌";
-  //   toggle.style.fontSize = "30px";
-  // } else {
-  //   // toggle.style.backgroundColor = "green";
-  //   toggle.textContent = "☰";
-  // }
+  if (toggleBtn) {
+    // toggle.style.backgroundColor = "blue";
+    toggle.textContent = "✕";
+    toggle.style.fontSize = "30px";
+  } else {
+    // toggle.style.backgroundColor = "green";
+    toggle.textContent = "☰";
+  }
 
-  // toggleBtn = !toggleBtn;
+  toggleBtn = !toggleBtn;
 });
 
 // AOS HEADER
