@@ -648,6 +648,7 @@ footer {
 
   .right-heading {
     /* background-color: #18bfef; */
+    margin-top: 30px;
     display: none;
 
     position: absolute;
@@ -672,25 +673,18 @@ footer {
     flex-direction: column;
     display: none; */
 
-    p {
-      margin-left: 0px;
-      /* margin-right: 1px; */
-    }
-
     a {
       /* font-family: sans-serif !important; */
       /* font-family: "Bricolage Grotesque" !important; */
       font-family: "Fira Code" !important;
 
-      font-style: italic;
-      font-size: 25px !important;
+      /* font-style: italic; */
+      font-size: 20px !important;
     }
 
     &:hover {
-      text-decoration-line: line-through;
-      text-decoration-style: double;
-
-      text-decoration-color: var(--Light-blue);
+      text-decoration-line: none;
+      text-decoration-style: none;
     }
   }
 
